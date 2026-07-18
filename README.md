@@ -39,7 +39,7 @@ FLIR_CRPS/
 
 ## Requirements
 
-- Wolfram Mathematica 12.0 or later. The notebook was created with Mathematica 12.0.
+- Wolfram Mathematica 13.2 or later. The notebook was created and tested with Mathematica 13.2.
 - [ExifTool](https://exiftool.org/) available from the command line.
 - Two FLIR radiometric JPEG images: one before and one after an intervention.
 - Corresponding manually prepared PNG masks.
