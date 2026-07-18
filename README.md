@@ -19,7 +19,7 @@ Contact: [candan@asu.edu](mailto:candan@asu.edu)
 ```text
 FLIR_CRPS/
 ├── notebooks/
-│   └── compare_flirr_v6_well_commented.nb
+│   └── flir_crps.nb
 ├── docs/
 │   ├── METHOD.md
 │   └── USAGE.md
@@ -48,7 +48,7 @@ FLIR_CRPS/
 
 1. Install Mathematica and ExifTool.
 2. Clone this repository.
-3. Open `notebooks/compare_flirr_v6_well_commented.nb` in Mathematica.
+3. Open `notebooks/flir_crps.nb` in Mathematica.
 4. Evaluate the notebook from top to bottom.
 5. Select the working directory when prompted.
 6. Follow the prompts for the before and after JPEG files, image ratios, and temperature limits.
