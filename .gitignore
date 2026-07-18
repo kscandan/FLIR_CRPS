@@ -1,0 +1,38 @@
+# Wolfram/Mathematica local and generated files
+*.nbp
+*.mx
+*.m~
+*.nb~
+*.autosave
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local analysis data and outputs
+/data/*
+!/data/README.md
+/results/
+/output/
+outputs/
+
+# Common thermal/visible image inputs
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.png
+*.bmp
+
+# Keep intentional documentation assets if later added
+!docs/**/*.png
+!docs/**/*.jpg
+
+# Archives and temporary files
+*.zip
+*.tar
+*.tar.gz
+*.tmp
+*.log

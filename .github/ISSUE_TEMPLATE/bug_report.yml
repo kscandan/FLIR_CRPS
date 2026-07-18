@@ -1,0 +1,39 @@
+name: Bug report
+description: Report a reproducible problem with the notebook
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "Do not upload sensitive thermal images or identifying data."
+  - type: input
+    id: mathematica
+    attributes:
+      label: Mathematica version
+    validations:
+      required: true
+  - type: input
+    id: exiftool
+    attributes:
+      label: ExifTool version
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Problem description
+      description: Explain what happened and what you expected.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      description: Use sanitized filenames and values.
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: Error output
+      render: shell

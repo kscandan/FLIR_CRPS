@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+title: "Infrared Imaging in Complex Regional Pain Syndrome"
+message: "Please cite this software using the metadata in this file."
+type: software
+authors:
+  - family-names: "Candan"
+    given-names: "K. Selcuk"
+    email: "candan@asu.edu"
+    affiliation: "Arizona State University"
+    orcid: "https://orcid.org/0000-0003-4977-6646"
+    website: "https://kscandan.site"
+  - family-names: "Candan"
+    given-names: "Burcu"
+  - family-names: "Gungor"
+    given-names: "Semih"
+year: 2026
+version: "1.0.0"
+license: Apache-2.0
+repository-code: "https://github.com/kscandan/FLIR_CRPS"
+url: "https://github.com/kscandan/FLIR_CRPS"
+abstract: >-
+  This software investigates the use of FLIR infrared imaging in the context
+  of Complex Regional Pain Syndrome (CRPS) treatment. The interactive Wolfram
+  Mathematica notebook extracts, masks, summarizes, visualizes, and compares
+  paired thermal-image temperature distributions.
+keywords:
+  - complex regional pain syndrome
+  - CRPS
+  - infrared imaging
+  - thermal imaging
+  - FLIR
+  - Wolfram Mathematica
+  - image analysis
